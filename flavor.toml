@@ -203,7 +203,7 @@ rules = [
 	{ mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "#ff7edb" },
 	{ url = "*.img", fg = "#ff7edb" },
 	# Visual file system 
-	{ mine = "vfs/{absent,stale}", fg = "#848bbd" },
+	{ mime = "vfs/{absent,stale}", fg = "#848bbd" },
 	# Fallback
 	{ url = "*" },
 	{ url = "*/", fg = "#848bbd" },
@@ -211,7 +211,7 @@ rules = [
 
 # : }}}
 
-[icon]
+[icon]# {{{
 
 dirs = [
 	{ name = ".config", text = "", fg = "#ff7edb" },
@@ -244,4 +244,4 @@ conds = [
 	{ if = "dir", text = "", fg = "#848bbd" },
 	{ if = "exec", text = "", fg = "#72f1b8" },
 	{ if = "!dir", text = "", fg = "#36f9f6" },
-]
+]# }}}
