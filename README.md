@@ -18,7 +18,7 @@ Original
 ya pkg add Miuzarte/synthwave84
 ```
 
-For Yazi 26.1.22
+For Yazi >= 26.1.22
 
 ```sh
 ya pkg add CFY98/synthwave84
